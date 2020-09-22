@@ -2,6 +2,7 @@
 
 - name: to patch the rhel servers
   hosts: all
+  serial: 2
   become: yes
 
   tasks:
